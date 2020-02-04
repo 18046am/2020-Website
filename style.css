@@ -1,11 +1,39 @@
-/* CSS files add styling rules to your content */
+/*notes
+Margin and Padding: (top) (right) (bottom) (left)
+Adding padding to main/nav will mean changing the margin +/- (x) to align both boxes.
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+Width and float allow the boxes to be next to eachother
+# To cover an id, . To cover a class eg: #header
+You can edit specific lines of code by combining the class and id eg:#main.title
+*/
+
+body{
+  background-color:#EEE;/*Kinda white but better than white #EEE*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+#header{
+  background-color:#9CC0E7; /*Light Cloud Blue 9CC0E7*/
+  text-align: center;
+  padding: 0.5%;
+  font-size:150%;
+  margin: 5% 10% 0;
+  color:#2A466D;
+}
+  
+#main{
+  background-color:#5e99d8; /*Light Blue #5e99d8*/
+  width:60%;
+  float:right;
+  color:#2A466D; /*Royal Blue 2A466D*/
+  padding:1%;
+  margin:1.5% 10% 0 0;
+}
+#nav{
+  background-color:#FF6162;
+  width:15.5%;
+  float:left;
+  margin:1.5% 0 0 10%;
+  padding:0.5%;
+  text-decoration:none;
 }

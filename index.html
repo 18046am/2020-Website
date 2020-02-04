@@ -1,27 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello!</title>
+<!DOCTYPE html><html lang="en"><head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Fonts:Roboto, Source Sans Pro -->  
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&amp;display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- https://daneden.github.io/animate.css/ to setup animations, add to div -->
+    <link rel="stylesheet" href="animate.css">
+    <!-- Activate WOW, timing animations https://www.delac.io/wow/index.html -->
+    <script src="wow.min.js"></script> 
+    <script>new WOW().init();</script>
     
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
+  </head>
   <body>
-    <h1>Hi there!</h1>
+    <!-- Start -->
+    <div id="container">
+      
+      <div id="header" class="wow fadeIn " data-wow-delay="0.5s">
+       <h1> Alan's Website </h1>
+      </div>
+      
+      <div id="nav" class="wow fadeIn " data-wow-delay="0.5s">
+        <ul><h3>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="term-1.html">Term 1</a></li>
+          <li><a href="term-2.html">Term 2</a></li>
+          <li><a href="term-3.html">Term 3</a></li>
+          <li><a href="term-4.html">Term 4</a></li>
+          </h3></ul>
+      </div>
+      
+      <div id="main" class="wow fadeIn " data-wow-delay="0.5s">
+        <div id="content">
+            <h3> </h3>
+        </div>
+      </div>  
+      
+    </div>
     
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+    <!-- End -->
+  
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
-</html>
+</body></html>
