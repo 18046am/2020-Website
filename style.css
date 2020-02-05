@@ -44,8 +44,8 @@ a:hover {
 }
 #nav ul li{
   list-style-type:none;
-  padding: 0 0 10% 0;
-  font-size:120%;
+  padding: 10% 0 10% 10%;
+  font-size:130%;
 }
 a{
   text-decoration:none;
