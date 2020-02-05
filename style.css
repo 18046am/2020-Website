@@ -36,4 +36,25 @@ body{
   margin:1.5% 0 0 10%;
   padding:0.5%;
   text-decoration:none;
+  list-style-type:none;
+  
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+#nav li{
+  list-style-type: none;
+}
+a{ 
+   /* Globally */
+  color:#2A466D;
+  text-decoration:none;
+} 
+/* Each state */
+a:visited{ 
+  text-decoration: none; 
+  color:#2A466D; 
 }
