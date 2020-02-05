@@ -29,8 +29,22 @@ body{
   padding:1%;
   margin:1.5% 10% 0 0;
 }
-#indexNav{
-  
-  
-  
+#nav{
+  background-color:#FF6162;
+  float:left;
+}
+
+#nav ul{
+  padding:0%;
+  margin:0%;
+  width:150%;
+}
+#nav a{
+  display:block;
+  padding:5%;
+  text-decoration:none;
+  color:#2A466D;
+}
+#nav a:hover {
+  color:#00A0C6; 
 }
