@@ -35,9 +35,6 @@ body{
   float:left;
   margin:1.5% 0 0 10%;
   padding:0.5%;
-  text-decoration:none;
-  list-style-type:none;
-  
 }
 
 a:hover {
@@ -45,16 +42,13 @@ a:hover {
   text-decoration:none; 
   cursor:pointer;  
 }
-#nav li{
-  list-style-type: none;
+#nav ul li{
+  list-style-type:none;
+  padding: 0 0 10% 0;
+  font-size:130%;
 }
-a{ 
-   /* Globally */
-  color:#2A466D;
+a{
   text-decoration:none;
-} 
-/* Each state */
-a:visited{ 
-  text-decoration: none; 
-  color:#2A466D; 
+  color:#2A466D;
+  box-sizing:border-box;
 }
