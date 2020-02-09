@@ -75,3 +75,7 @@ body{
 }
 
 /*Info Boxes End*/
+iframe{
+  width:100%;
+  padding:0% 1% 3% 1%;
+}
