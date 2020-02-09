@@ -86,7 +86,23 @@ iframe{
   color:#2A466D; /*Royal Blue 2A466D*/
   padding: 0.1% 1% 0.1% 1%;
   margin:1.5% 10% 5% 0;
+    transition:0.5s;
+  background-size:100%;
+  background-position: center;
 }
 #showcase img{
   width:40%;
+}
+
+.imgBlurred{
+  
+  
+}
+.imgBlurred :not(img){
+  top:30%;
+  z-index:1;
+  color:#fff;
+  text-align:center;
+  width:100%;
+  
 }
