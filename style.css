@@ -94,15 +94,3 @@ iframe{
   width:40%;
 }
 
-.imgBlurred{
-  
-  
-}
-.imgBlurred :not(img){
-  top:30%;
-  z-index:1;
-  color:#fff;
-  text-align:center;
-  width:100%;
-  
-}
